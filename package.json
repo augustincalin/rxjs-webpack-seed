@@ -1,0 +1,30 @@
+{
+  "name": "rxjs-webpack-seed",
+  "version": "0.0.1",
+  "description": "Typescript webpack rxjs seed.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustincalin/rxjs-webpack-seed.git"
+  },
+  "author": "Augustin Calin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augustincalin/rxjs-webpack-seed/issues"
+  },
+  "homepage": "https://github.com/augustincalin/rxjs-webpack-seed#readme",
+  "dependencies": {
+    "rxjs": "^5.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.2",
+    "typings": "^2.1.1",
+    "ts-loader": "^2.0.3",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
