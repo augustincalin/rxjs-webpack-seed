@@ -1,3 +1,5 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
     entry: './main',
     output: {
@@ -11,5 +13,6 @@ module.exports = {
             }
         ]
     },
-    resolve: { extensions: ['.ts', '.js'] }
+    resolve: { extensions: ['.ts', '.js'] },
+    plugins: [new HtmlWebpackPlugin({title:'RxJS seed'})]
 }
